@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Parser Extension",
+  "version": "2.0",
+  "description": "Zaznacz JSON na stronie i otwórz go w lokalnym podglądzie drzewa.",
+  "permissions": ["contextMenus", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
